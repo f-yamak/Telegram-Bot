@@ -98,6 +98,8 @@ tvm_data  = tvmaze_data()
 
 def single_search(update: Update, context: CallbackContext):
     texted_message = update.message.text
+    
+    """We can see the sent message."""
     print(texted_message)
     id = tvm_data.show_id(texted_message)
     
