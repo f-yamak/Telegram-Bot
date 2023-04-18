@@ -7,7 +7,7 @@ import re
 """
 *We used TVMAZE's API in our code. 
 *We created a class because if we want add another api to our code we can simply create another class so there is no confusion.
-*Every function is defined acording to content of the TVMAZE API.
+*Every function is defined according to content of the TVMAZE API.
 """
 class tvmaze_data:
     def __init__(self):
