@@ -22,6 +22,9 @@ $pip install python-telegram-bot==12.0.0b1 --upgrade
 > * You will use this token on code in 'main'
 
 Copy the token paste it into the variable named TOKEN in the 'main' method.
+```python
+TOKEN = "270485614:AAHfiqksKZ8WmR2zSjiQ7_v4TMAKdiHm9T0" #like this
+```
 
 Run the main method.
 
